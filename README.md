@@ -14,19 +14,19 @@ and 1 horizontal piece.
 The Start position is then like this (X means empty):
 
 Ok sorry it seems like github README messes up the formatting, open the readme in a text editor
-or see picture.
+or see picture (puzzle.jpg).
 
-| -   -   -   - |
-| X | B   B | X |
-| -           - |
-| V | B   B | V |
-|     -   -     |
-| V | H   H | V |
-| -   -   -   - |
-| V | Y | Y | V |
-|     -   -     |
-| V | Y | Y | V |
-| -   -   -   - |
+| -   -   -   - |  
+| X | B   B | X |  
+| -           - |  
+| V | B   B | V |  
+|     -   -     |  
+| V | H   H | V |  
+| -   -   -   - |  
+| V | Y | Y | V |  
+|     -   -     |  
+| V | Y | Y | V |  
+| -   -   -   - |  
 
 Or in short:  
 XBBX  
@@ -56,7 +56,7 @@ blue is just the right size)
 A piece can be moved only if it can be moved into an empty spot (obviously). 
 
 
------------------------------------------------------
+===================================================================
 
 The solution and the method isn't anything groundbreaking, it's just a brute force
 approach with a breath first search. It works fine because the puzzle is quite small.
@@ -70,7 +70,8 @@ breath first search the solution is guaranteed to be the shortest one.
 Why do this? I don't know I just got tired of aimlessly moving pieces, accidently finding
 the solution and not being able to recreate it.
 
-===================================================================
+----------------------------------------------------------------------
+
 License:
 I don't know why anyone would take any of this specific code, its just a small project I did
 which only took a few hours. Anyway, here is the GPL license: 
