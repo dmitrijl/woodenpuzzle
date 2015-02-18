@@ -2,8 +2,8 @@ Solves a specific little puzzle I have at home.
 
 The puzzle is basically a 5x4 grid (5 rows 4 columns) with 10 pieces in it:
 
-One blue piece, 2x2 size.
-Five red pieces of size 1x2
+One blue piece, 2x2 size.  
+Five red pieces of size 1x2  
 Four yellow pieces of size 1x1
 
 Four of the red pieces start in a vertical position, and one in horizontal.
@@ -12,6 +12,10 @@ two different types of pieces: horizontal and vertical. There are then 4 vertica
 and 1 horizontal piece.
 
 The Start position is then like this (X means empty):
+
+Ok sorry it seems like github README messes up the formatting, open the readme in a text editor
+or see picture.
+
 | -   -   -   - |
 | X | B   B | X |
 | -           - |
@@ -24,12 +28,12 @@ The Start position is then like this (X means empty):
 | V | Y | Y | V |
 | -   -   -   - |
 
-Or in short:
-XBBX
-VBBV
-VHHV
-VYYV
-VYYV
+Or in short:  
+XBBX  
+VBBV  
+VHHV  
+VYYV  
+VYYV  
 
 Because a vertical piece always occupies a 2x1 (2 rows 1 col) its unambiguous.
 
@@ -38,11 +42,11 @@ such a way that the blue piece ends up at the bottom center:
 (in this figure X just means "anything". Its not important where anything else is just
 that the blue piece is in that specific position)
 
-XXXX
-XXXX
-XXXX
-XBBX
-XBBX
+XXXX  
+XXXX  
+XXXX  
+XBBX  
+XBBX  
 
 In the physical puzzle, the blue piece's depth is half of all other pieces, and 
 is the only piece which this would fit through the hole at the bottom there (it 
